@@ -7,7 +7,7 @@ Generates cartoon avatars by seed
 
 ### DEMO
 
-http://ava.opekunov.com
+https://ava.opekunov.com
 
 ### Usage
 
