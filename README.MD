@@ -5,6 +5,9 @@ Generates cartoon avatars by seed
 
 `composer require opekunov/stylish-avatar-generator`
 
+### DEMO
+
+http://ava.opekunov.com
 
 ### Usage
 
