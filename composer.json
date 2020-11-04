@@ -1,0 +1,38 @@
+{
+    "name": "opekunov/stylish-avatar-generator",
+    "description": "Generate fun avatar by text seed",
+    "type": "library",
+    "keywords": [
+        "avatar",
+        "avatar generator",
+        "avatar random",
+        "random",
+        "cartoon avatar",
+        "avatar faker",
+        "faker"
+    ],
+    "minimum-stability": "dev",
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/opekunov"
+        }
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Opekunov",
+            "email": "iam@opekunov.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Ekaterina Kirillova",
+            "email": "KateDragon1994@gmail.com",
+            "role": "Artist"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "intervention/image": "^2.5"
+    }
+}
