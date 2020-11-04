@@ -108,9 +108,9 @@ final class StylishAvatarGenerator
 
         $basePath = $this->elemetsPath . $style . '/';
         $eye = $basePath . 'eye/eye' . $this->numBySeed($seed, 1, $this->maxVariants($basePath . 'eye')) . '.png';
-        $eyebrows = $basePath . 'eyebrows/eyebrows' . $this->numBySeed($seed, 1, $this->maxVariants($basePath . 'eyebrows')) . '.png';
+        $eyebrows = $basePath . 'eyebrows/eyebrows' . $this->numBySeed(md5($seed), 1, $this->maxVariants($basePath . 'eyebrows')) . '.png';
         $nose = $basePath . 'nose/nose' . $this->numBySeed($seed, 1, $this->maxVariants($basePath . 'nose')) . '.png';
-        $mouth = $basePath . 'mouth/mouth' . $this->numBySeed($seed, 1, $this->maxVariants($basePath . 'mouth')) . '.png';
+        $mouth = $basePath . 'mouth/mouth' . $this->numBySeed(base64_encode($seed), 1, $this->maxVariants($basePath . 'mouth')) . '.png';
 
         $image = $this->manager
             ->canvas($size, $size, $backgroundColor);
