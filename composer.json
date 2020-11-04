@@ -2,6 +2,7 @@
     "name": "opekunov/stylish-avatar-generator",
     "description": "Generate fun avatar by text seed",
     "type": "library",
+    "homepage": "https://github.com/Opekunov/StylishAvatarGenerator",
     "keywords": [
         "avatar",
         "avatar generator",
