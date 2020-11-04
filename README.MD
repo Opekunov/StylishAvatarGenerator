@@ -1,10 +1,10 @@
 # Fancy Avatar Generator
-
-#### About
-
 Generates cartoon avatars by seed
 
-* * *
+### Install
+
+`composer require opekunov/stylish-avatar-generator`
+
 
 ### Usage
 
